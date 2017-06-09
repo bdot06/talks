@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='bulma-0.4.2/css/bulma.css' />
+    </head>
+    <title>Talks</title>
+    <script src="vue.js"></script>
+
+    <div id="app">
+       <div class="columns">
+         <div class="column" > 
+             
+             <h1> {{ conference }} </h1> 
+             <br>
+             <h1> {{ speaker }} </h1>
+             <br>
+             <h1> {{ name }} </h1>
+             <br>
+             <h1> {{ youtube }} </h1>
+         
+         </div>
+         <div class="column" ></div>
+        <div class="column"></div>
+         <div class="column"></div>
+     <div class="column"></div>
+</div>
+
+<button v-on:click ='getVideo'>Get Video</button>
+
+    
+    </div>
+
+
+
+    <script src = "index.js"> </script>
+    <script src = "axios.min.js"> </script>
+
+</html>
